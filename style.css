@@ -1,0 +1,105 @@
+/* ✅ BASE STYLES (unchanged where possible) */
+body {
+    background-color: rgba(217, 193, 115, 0.53);
+}
+
+#intro {
+    max-width: 100%;
+    line-height: 2.5;
+    margin-left: 200px;
+    margin-right: 70px;
+    background-color: rgba(220, 224, 204, 0.838);
+    text-align: left;
+    text-decoration: solid;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+img {
+    object-fit: cover;
+    height: 150px;
+    width: auto;
+    box-shadow: 0 0 20px rgb(37, 36, 36);
+    border-radius: 40px;
+    position: absolute;
+    top: 80px;
+    left: 35px;
+}
+
+#headcontent {
+    max-width: 100%;
+    line-height: 2.5;
+    margin-right: 70px;
+    background-color: rgba(220, 224, 204, 0.838);
+    text-align: left;
+    text-decoration: solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#quacontent {
+    max-width: 100%;
+    line-height: 2.5;
+    margin-right: 450px;
+    background-color: rgba(220, 224, 204, 0.838);
+    text-align: left;
+    text-decoration: solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.project {
+    max-width: 100%;
+    line-height: 2;
+    margin-right: 70px;
+    background-color: rgba(220, 224, 204, 0.838);
+    text-align: left;
+    text-decoration: solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact {
+    max-width: 100%;
+    line-height: 2;
+    margin-right: 1050px;
+    background-color: rgba(220, 224, 204, 0.838);
+    text-align: left;
+    text-decoration: solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* ✅ MOBILE RESPONSIVE FIXES */
+@media screen and (max-width: 768px) {
+    #intro,
+    #headcontent,
+    #quacontent,
+    .project,
+    .contact {
+        margin: 10px;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    #quacontent {
+        margin-right: 10px;
+    }
+
+    .contact {
+        margin-right: 10px;
+    }
+
+    img {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        height: 120px;
+        width: 120px;
+    }
+
+    body {
+        padding: 5px;
+    }
+}
+
