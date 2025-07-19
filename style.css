@@ -5,7 +5,7 @@ body {
 
 #intro {
     max-width: 100%;
-    line-height: 2.5;
+    line-height: 2;
     margin-left: 200px;
     margin-right: 70px;
     background-color: rgba(220, 224, 204, 0.838);
@@ -28,7 +28,7 @@ img {
 
 #headcontent {
     max-width: 100%;
-    line-height: 2.5;
+    line-height: 2;
     margin-right: 70px;
     background-color: rgba(220, 224, 204, 0.838);
     text-align: left;
@@ -39,7 +39,7 @@ img {
 
 #quacontent {
     max-width: 100%;
-    line-height: 2.5;
+    line-height: 2;
     margin-right: 450px;
     background-color: rgba(220, 224, 204, 0.838);
     text-align: left;
