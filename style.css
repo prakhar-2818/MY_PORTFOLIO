@@ -71,6 +71,8 @@ a{
     text-decoration: solid;
     padding: 10px;
     border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
 }
 
 /* ✅ MOBILE RESPONSIVE FIXES */
