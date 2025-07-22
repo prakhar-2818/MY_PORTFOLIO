@@ -13,6 +13,8 @@ body {
     text-decoration: solid;
     padding: 12px;
     border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
 }
 
 img {
@@ -35,6 +37,8 @@ img {
     text-decoration: solid;
     padding: 20px;
     border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
 }
 
 #quacontent {
@@ -46,6 +50,8 @@ img {
     text-decoration: solid;
     padding: 20px;
     border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
 }
 a{
     text-decoration: none;
@@ -60,6 +66,8 @@ a{
     text-decoration: solid;
     padding: 20px;
     border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
 }
 
 .contact {
