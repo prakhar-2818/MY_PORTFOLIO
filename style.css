@@ -13,6 +13,8 @@ body {
     text-decoration: solid;
     padding: 12px;
     border-radius: 15px;
+}
+    #intro{
     border-width: 2px;
     border-color: black;
 }
